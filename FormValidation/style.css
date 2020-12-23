@@ -98,3 +98,16 @@ body {
     padding: 10px;
     width: 100%;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #14192b;
+    }
+    h1 {
+        color: #ffffff;
+    }
+
+    a {
+        color: #ffff;
+    }
+  }
