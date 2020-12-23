@@ -15,8 +15,13 @@ body {
     text-transform: capitalize;
 }
 
+h2 {
+    color: #000;
+}
+
 .hex {
     font-size: 3rem;
+    color: #000;
 }
 
 .hexBtn {
@@ -34,6 +39,8 @@ body {
 .hexBtn:hover {
     background-color: sandybrown;
 }
+
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #14192b;

@@ -20,7 +20,6 @@ function getHex() {
         let random = Math.floor(Math.random()*hexNumbers.length);
         hexCol += hexNumbers[random];
     }
-    window.navigator.vibrate(1);
 
     bodyBcg.style.backgroundColor = hexCol;
     hexLabel.innerHTML = hexCol;
