@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.container {
+    text-align: center;
+}
+
+.hexColor {
+    text-transform: capitalize;
+}
+
+.hex {
+    font-size: 3rem;
+}
+
+.hexBtn {
+    color: #000;
+    background-color: beige;
+    border: 3px solid beige;
+    border-radius: 7px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.hexBtn:hover {
+    background-color: sandybrown;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #14192b;
+    }
+    h2 {
+        color: #ffffff;
+    }
+    .hex {
+        color: #ffff;
+    }
+  }
