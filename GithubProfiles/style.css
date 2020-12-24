@@ -1,0 +1,96 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14192b;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+input {
+    background-color: #4c2885;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card {
+    background-color: #3b3066;
+    border-radius: 20px;
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.userInfo {
+    color: white;
+    margin-left: 2rem;
+}
+
+.userInfo h2 {
+    margin-top: 0;
+}
+
+.userInfo ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.userInfo ul li{
+    display: flex;
+    align-items: center;
+}
+
+.userInfo ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    background-color: orange;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
