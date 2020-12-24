@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #14192b;
+    background-color: #FAFAFA;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -15,19 +15,20 @@ body {
 }
 
 input {
-    background-color: #4c2885;
+    background-color: #e9e7e7;
     border-radius: 10px;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: inherit;
     font-size: 1rem;
     padding: 1rem;
     margin-bottom: 2rem;
     max-width: 100%;
+    
 }
 
 input::placeholder {
-    color: #bbb;
+    color: rgb(136, 135, 135);
 }
 
 input:focus {
@@ -94,3 +95,24 @@ input:focus {
     margin-bottom: 0.5rem;
     text-decoration: none;
 }
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #14192b;
+    }
+    input {
+        background-color: #2a2a72;
+        color: #fff;
+    }
+
+    input::placeholder {
+        color: #bbb;
+    }
+    h2 {
+        color: #ffffff;
+    }
+    .hex {
+        color: #ffff;
+    }
+  }
